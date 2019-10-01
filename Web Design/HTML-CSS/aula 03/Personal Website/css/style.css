@@ -1,0 +1,30 @@
+/* Rascunho de cores */
+#rascunho {
+  color: #222831;
+  color: #393e46;
+  color: #00adb5;
+  color: #eeeeee;
+}
+
+div {
+  background-color: #eeeeee;
+}
+.cloud-img {
+  height: 80px;
+}
+.underline {
+  text-decoration: underline;
+}
+.p-test {
+  background-color: rgb(233, 74, 74);
+  width: 200px;
+  position: relative;
+}
+.span-test {
+  background-color: aqua;
+  display: block;
+  width: 200px;
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}

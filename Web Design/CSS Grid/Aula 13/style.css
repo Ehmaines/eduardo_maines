@@ -1,0 +1,30 @@
+.main{
+    display: grid;
+    grid-template-areas: "header header header"
+                         "content content sidebar"
+                         "footer footer footer";
+    grid-gap: 1rem;
+}
+.header{
+grid-area: header;
+text-align: center;
+}
+.content{
+    grid-area: content;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+}
+@media (max-width: 500px){
+    .main{
+        grid-template-areas: 
+        "header"
+        "content"
+        "sidebar"
+        "footer";
+    }
+}

@@ -1,0 +1,50 @@
+/* Rascunho de cores */
+#rascunho {
+  color: #222831;
+  color: #393e46;
+  color: #00adb5;
+  color: #eeeeee;
+}
+body {
+  text-align: center;
+  background-color: #eeeeee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-cloud-img,
+.bottom-cloud-img {
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.top-cloud-img {
+  margin: -320px 0px 0px 200px;
+}
+.bottom-cloud-img {
+  margin: -280px 0px 0px -350px;
+}
+.top-container {
+  position: relative;
+}
+.underline {
+  text-decoration: underline;
+}
+.p-test {
+  background-color: rgb(233, 74, 74);
+  width: 200px;
+  position: relative;
+}
+.span-test {
+  background-color: rgba(0, 255, 255, 0.623);
+  display: block;
+  width: 200px;
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}

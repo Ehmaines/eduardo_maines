@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+button:active {
+    color: green;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.invisible {
+    visibility: hidden;
+}
+.huge{
+    font-size: 10rem;
+    color:blue;
+    font-weight: bold;
+}

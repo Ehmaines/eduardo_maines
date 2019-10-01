@@ -1,0 +1,23 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: solid;
+}
+div#Q1 {
+  background-color: rgb(39, 96, 219);
+  border: solid 10px;
+  border-color: black;
+  padding: 20px;
+}
+div#Q2 {
+  background-color: rgba(255, 0, 0, 0.788);
+  border-color: black;
+  border: solid 20px;
+  margin-left: 260px;
+}
+div#Q3 {
+  background-color: rgba(255, 255, 0, 0.678);
+  border-color: black;
+  border: solid 10px;
+  margin-left: 500px;
+}

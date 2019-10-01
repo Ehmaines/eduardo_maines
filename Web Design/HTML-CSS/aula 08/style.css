@@ -1,0 +1,82 @@
+.team-block {
+  height: 426px;
+  width: 122px;
+  display: inline-block;
+  vertical-align: top;
+}
+.team-box {
+  width: 100px;
+  height: 20px;
+  background: grey;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+.oitavas {
+  margin: 10px 0px;
+}
+.Conector {
+  width: 60px;
+  height: 426px;
+  display: inline-block;
+  vertical-align: top;
+}
+.right-bracket {
+  border: 1px solid black;
+  border-left: none;
+  width: 100%;
+}
+.oitavas-bracket {
+  height: 50px;
+  margin: 31px 0px 52px 0px;
+}
+.line {
+  border: 1px solid black;
+  border-right: none;
+  border-bottom: none;
+  border-bottom: none;
+  border-left: none;
+}
+.oitavas-line {
+  margin: 57px 0px 103px 0px;
+}
+.quartas {
+  margin: 55px 0px 47px 0px;
+}
+#A {
+  margin: 40px 0px;
+}
+#B {
+  margin: 59px 0px;
+}
+#C {
+  margin: 61px 0px;
+}
+.quartas-bracket-top {
+  height: 106px;
+  margin: 55px 0px 59px 0px;
+}
+.quartas-bracket-bot {
+  height: 106px;
+  margin: 95px 0px 59px 0px;
+}
+.quartas-line-top {
+  margin: 110px 0px 83px 0px;
+}
+.quartas-line-bot {
+  margin: 205px 0px 83px 0px;
+}
+.finais {
+  margin: 88px 0px 167px 0px;
+}
+.finais-bracket {
+  height: 210px;
+  margin: 103px 0px 59px 0px;
+}
+.finais-line {
+  margin: 200px 0px 83px 0px;
+}
+.campeao {
+  margin: 178px 0px 47px 0px;
+}

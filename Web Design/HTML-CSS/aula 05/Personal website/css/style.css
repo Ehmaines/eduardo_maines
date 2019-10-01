@@ -1,0 +1,66 @@
+/* Rascunho de cores */
+#rascunho {
+  color: #222831;
+  color: #393e46;
+  color: #00adb5;
+  color: #eeeeee;
+}
+
+body {
+  text-align: center;
+  background-color: #eeeeee;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.img-prefil {
+  height: 15em;
+}
+
+.top-container {
+  position: relative;
+}
+
+.top-cloud-img,
+.bottom-cloud-img {
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.top-cloud-img {
+  margin: -320px 0px 0px 200px;
+}
+
+.bottom-cloud-img {
+  margin: -280px 0px 0px -350px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.p-test {
+  position: relative;
+  display: block;
+  background-color: rgb(216, 71, 71);
+  width: 200px;
+}
+
+.span-test {
+  position: relative;
+  display: block;
+  background-color: rgba(65, 65, 230, 0.884);
+  width: 200px;
+  left: 30px;
+  bottom: 30px;
+}

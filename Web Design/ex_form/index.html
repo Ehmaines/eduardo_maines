@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Quais os temas de seus problemas?</h2>
+    <form>
+        <p>
+            <input type="checkbox" name="family_problem" id="family_problem"> <label for="family_problem">Familia</label>
+        </p>
+        <p>
+            <input type="checkbox" name="friends_problem" id="friends_problem"> <label for="friends_problem">Amigos</label>
+        </p>
+        <p>
+        <input type="checkbox" name="classmate_problem" id="classmate_problem"> <label for="classmate_problem">Colegas</label>
+    </p>
+    <p>
+        <input type="checkbox" name="relationship_problem" id="relationship_problem"> <label for="relationship_problem">Relacionamento</label>
+    </p>
+    <p>
+        <input type="checkbox" name="other_problem" id="other_problem"> <label for="other_problem">Outro</label> <input type="text" name="other_text" id="other_text">
+    </p>
+    <hr>
+    </form>
+        <p>Possivel Data</p> <input id="selected-data" type="date" name="date" id="calendar">
+<table>
+    <tr>
+        <td>Disponibilidade</td>
+        <td>Horário</td>
+    </tr>
+    <tr id="08:00:00">
+        <td>Indisponível</td>
+        <td>08:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="09:00:00">
+        <td>Indisponível</td>
+        <td>09:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="10:00:00">
+        <td>Indisponível</td>
+        <td>10:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="11:00:00">
+        <td>Indisponível</td>
+        <td>11:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="13:00:00">
+        <td>Indisponível</td>
+        <td>13:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="14:00:00">
+        <td>Indisponível</td>
+        <td>14:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="15:00:00">
+        <td>Indisponível</td>
+        <td>15:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+    <tr id="16:00:00">
+        <td>Indisponível</td>
+        <td>16:00:00</td>
+        <td><button class="data-button">Solicitar</button></td>
+    </tr>
+</table>
+<hr>
+<h2>Datas e horaas solicitadas para Agendamento</h2>
+<table id="id-horarios-agendados" border="1px">
+    <tr>
+        <td><header>Data</header></td>
+        <td><header>Horário</header></td>
+
+    </tr>
+
+</table>
+
+<h2>Comente Sobre o Problema (opcional)</h2>
+<form>
+<textarea cols="50" rows="4"></textarea> <br>
+<button type="submit" class="btn_submit">Enviar</button> <button type="reset">Limpar</button> <button>Cancelar</button>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
