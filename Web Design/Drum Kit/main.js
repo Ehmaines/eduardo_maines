@@ -30,7 +30,7 @@ function  playSound(key){
             audio = new Audio("sons/crash.mp3")
             break;
         case 'l':
-            audio = new Audio("sons/kick-bass.mp3")
+            audio = new Audio("sons/kick-brass.mp3")
             break;
 
     }
