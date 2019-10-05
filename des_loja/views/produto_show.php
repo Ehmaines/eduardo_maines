@@ -26,8 +26,8 @@
     </div>
 
     <div class="btn-group col-12 mt-3">
-        <a class="btn btn-success" href="produto.php?action=edit">Editar Dados</a>
-        <a class="btn btn-danger" href="produto.php?action=destroy">Apagar Produto</a>
+        <a class="btn btn-success" href="produto.php?action=edit&id=<?= $produto['id'] ?>">Editar Dados</a>
+        <button onclick="conf_delete()" class="btn btn-danger" >Apagar Produto</button>
     </div>
     
     <?php } else { ?>
@@ -38,7 +38,15 @@
     <?php } ?>
 
     </div>
+<script>
+    function conf_delete(){
+        var conf = confirm("Tem certeza que deseja deletar?");
+        if (conf == true){
+            window.location.href = "produto.php?action=destroy&id=<?= $produto['id']?>";
+        }
+    }
 
+</script>
 </body>
 <?php include 'import_js.php' ?>
 

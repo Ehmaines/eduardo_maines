@@ -36,7 +36,7 @@
                 <?php } ?>
                 <td><a href="produto.php?action=show&id=<?= $produto['id']?>" class="btn btn-link">Ver</a></td>
                 <td><a href="produto.php?action=edit&id=<?= $produto['id']?>" class="btn btn-link">Edit</a></td>
-                <td><button href="produto.php?action=destroy&id=<?= $produto['id']?>" class="btn btn-link" onclick="conf_delete()">Delete</button></td>
+                <td><button  class="btn btn-link" onclick="conf_delete()">Delete</button></td>
                 </tr>
             <?php } ?>
             </tbody>
@@ -50,11 +50,9 @@
                 <script>function conf_delete(){
     var conf = confirm("Tem certeza que deseja deletar?");
     if (conf == true){
-        window.location = "Location: produto.php?action=index";
+        window.location.href = "produto.php?action=destroy&id=<?= $produto['id']?>";
     }
-    else{
-        break;
-    }
+
 }</script>
 </body>
 <?php include 'import_js.php' ?>

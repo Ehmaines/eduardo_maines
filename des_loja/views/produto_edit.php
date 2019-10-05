@@ -30,9 +30,25 @@
             <input type="number" class="form-control col-3" id="preco" name="preco" min="0" step="0.10" placeholder="0,00" value="<?= $produto['preco'] ?>">            
             </div>
             </div>
-            <button type="submit" id="bto-cadastrar" class="btn btn-primary">Confirmar</button>
+            <button type="" id="bto-cadastrar" class="btn btn-primary" onclick="conf_edit()">Confirmar</button>
         </form>
-    </div>          
+    </div>   
+    <script>
+        function conf_edit(){
+            var conf = confirm("Tem certexa que quer Editar o produto?")
+
+            if(conf == true){
+                document.getElementById('bto-cadastrar').type = 'submit';
+
+            }
+            if(conf == false){
+                document.getElementById('bto-cadastrar').type = 'reset';
+
+            }
+
+
+            } 
+    </script>       
 </body>
 <?php include 'import_js.php' ?>
 </html>
