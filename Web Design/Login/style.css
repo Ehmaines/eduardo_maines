@@ -1,0 +1,36 @@
+/* Link Imagem https://miro.medium.com/max/3840/1*w-1Vp67HVFe74p6UYm00tA.jpeg */
+body ,html{
+    height: 100%;
+    background-image: url(imagens/background_login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.botao_drop{
+    padding: 2px;
+    margin: 10px 49% 0px 29%;
+
+}
+.login{
+    float: center;
+    margin-top: 12%;
+    color: white;
+    width: 100%;
+    font-family: "Arial", Times, serif;
+}
+
+.form-login-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
