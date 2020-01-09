@@ -1,0 +1,6 @@
+C:\Users\eduardo.maines\source\repos\Unidade4\Unidade4\bin\Debug\Unidade4.exe.config
+C:\Users\eduardo.maines\source\repos\Unidade4\Unidade4\bin\Debug\Unidade4.exe
+C:\Users\eduardo.maines\source\repos\Unidade4\Unidade4\bin\Debug\Unidade4.pdb
+C:\Users\eduardo.maines\source\repos\Unidade4\Unidade4\obj\Debug\Unidade4.csprojAssemblyReference.cache
+C:\Users\eduardo.maines\source\repos\Unidade4\Unidade4\obj\Debug\Unidade4.exe
+C:\Users\eduardo.maines\source\repos\Unidade4\Unidade4\obj\Debug\Unidade4.pdb

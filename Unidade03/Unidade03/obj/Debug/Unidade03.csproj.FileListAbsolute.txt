@@ -1,0 +1,6 @@
+C:\Users\eduardo.maines\source\repos\Unidade03\Unidade03\bin\Debug\Unidade03.exe.config
+C:\Users\eduardo.maines\source\repos\Unidade03\Unidade03\bin\Debug\Unidade03.exe
+C:\Users\eduardo.maines\source\repos\Unidade03\Unidade03\bin\Debug\Unidade03.pdb
+C:\Users\eduardo.maines\source\repos\Unidade03\Unidade03\obj\Debug\Unidade03.csprojAssemblyReference.cache
+C:\Users\eduardo.maines\source\repos\Unidade03\Unidade03\obj\Debug\Unidade03.exe
+C:\Users\eduardo.maines\source\repos\Unidade03\Unidade03\obj\Debug\Unidade03.pdb
